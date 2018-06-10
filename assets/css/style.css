@@ -1,0 +1,26 @@
+body {
+    background-image: url("../images/background.jpg"); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    background-color: #e9ecef00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.btn-primary { 
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #65020f; 
+}
+
+h4 {
+    color: #65020f;
+    font-weight: 700;
+}
+
+th {
+    font-weight: 600;
+}
+
