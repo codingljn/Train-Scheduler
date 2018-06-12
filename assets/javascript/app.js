@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // Start Firebase
 var config = {
     apiKey: "AIzaSyDmMpJG6LCLl2lRpv5HuIMHy-ivJBGHof0",
@@ -77,7 +78,9 @@ database.ref().on("child_added", function(childSnapshot, html) {
   var nextTrain = moment().add(tMinstillTrain, "minutes").format("hh:mm a");
 //   console.log("Arrival time: " + nextTrain);
 
-// Dynamically add Train data and calculated values to the table
+// Dynamically add Train data and calculated values to the train schedule
 $("#train-table > tbody").append("<tr><td>" + tName + "</td><td>" + tDest + "</td><td>" + tFreq + "</td><td>" + nextTrain + "</td><td>" + tMinstillTrain + "</td><tr>");
 
-}); 
+});
+
+});
